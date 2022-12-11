@@ -48,7 +48,6 @@ class MainWindow():
         print("update_text")
         dpg.set_value("text", model.text)
 
-    @action
     def change_text(self, text):
         model.text = text
 
